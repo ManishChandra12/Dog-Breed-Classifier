@@ -6,6 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+jupyter = "*"
+numpy = "*"
+opencv-python = "*"
+matplotlib = "*"
+tqdm = "*"
+torch = "*"
+torchvision = "*"
 
 [requires]
 python_version = "3.8"
