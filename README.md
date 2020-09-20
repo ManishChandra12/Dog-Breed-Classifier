@@ -30,3 +30,7 @@ mkdir data
 mkdir haarcascades
 ```
 9. Download the pre-trained face detector named `haarcascade_frontalface_alt.xml` from 'https://github.com/opencv/opencv/tree/master/data/haarcascades' and place the xml file inside `haarcascades/`
+10. Launch the jupyter notebook
+```
+pipenv run jupyter notebook
+```
