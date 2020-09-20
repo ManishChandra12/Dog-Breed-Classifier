@@ -1,4 +1,17 @@
 # Dog-Breed-Classifier
+Capstone project for the _Udacity's Machine Learning Engineer_ Nanodegree Program
+
+## Project Overview
+The aim of the project is to build a pipeline to process real-world, user-supplied images. A CNN will identify an estimate of the dog's breed, given an image. When the image is of a human, the CNN will choose an estimate of a dog breed that resembles the human. If neither a dog or a human is detected, then an error message is output. Therefore, the models in place should be capable of detecting a dog or human in an image beforehand and then, classify the dog to its breed or a human to the dog breed that s/he resembles.
+
+## Software and Libraries
+This project uses Python 3 and is designed to be completed through the Jupyter Notebook IDE. The following libraries are used in this project:  
+* numpy
+* opencv-python
+* matplotlib
+* tqdm
+* torch
+* torchvision
 
 ## Project Setup
 1. Clone the repo
